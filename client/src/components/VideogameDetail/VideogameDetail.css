@@ -1,0 +1,53 @@
+.cube {
+    width: 60px;
+    height: 60px;
+    background: rgba(0,0,0,0.8);
+    display: flex;
+    border: none;
+    padding: 0px;
+    overflow: hidden;
+    outline: none;
+    box-shadow: 0 0 60px 10px rgba(0,0,0,0.2);
+    transition: all ease 200ms;
+    filter: drop-shadow(15px 7px 7px rgba(244, 244, 244, 0.428));
+    border-radius: 20px;
+    cursor: pointer
+}
+
+.cube:hover {
+    transform: scale(1.02);
+    transition: all ease 200ms;
+  }
+
+.cubeContent {
+    font-family: quicksand;
+    font-weight: 400;
+    color: white;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+}
+
+.cubeContent svg {
+  fill: beige;
+  width: 60%;
+}
+
+.cubeContent img {
+  width: 60%;
+}
+ 
+.cubeContent a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    border-radius: 20px;
+    filter: drop-shadow(15px 7px 7px rgba(244, 244, 244, 0.428));
+    transition: all ease 200ms;
+}
